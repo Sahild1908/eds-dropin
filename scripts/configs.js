@@ -7,6 +7,7 @@
  */
 export const calcEnvironment = () => {
   const { href } = window.location;
+  debugger;
   let environment = 'prod';
   if (href.includes('.hlx.page')) {
     environment = 'stage';
