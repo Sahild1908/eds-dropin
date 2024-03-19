@@ -48,7 +48,6 @@ const getConfigForEnvironment = async (environment) => {
  * @returns {Promise<string|undefined>} - The value of the configuration parameter, or undefined.
  */
 export const getConfigValue = async (configParam, environment) => {
-debugger;
 console.log("Debugger is working fine af");
   const env = environment || calcEnvironment();
   const configJSON = await getConfigForEnvironment(env);
